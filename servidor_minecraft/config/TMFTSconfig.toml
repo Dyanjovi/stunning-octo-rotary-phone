@@ -1,0 +1,127 @@
+
+["Event Settings"]
+	#Settings for random sanity events
+	#Enable/disable all sanity events
+	enable_events = true
+	#Global cooldown between any events (in ticks, 20 ticks = 1 second)
+	#Range: 0 ~ 12000
+	global_cooldown = 100
+	#Chance for screenshake event (out of 7500)
+	#Range: 0 ~ 7500
+	screenshake_chance = 1001
+	#Cooldown for screenshake event (in ticks)
+	#Range: 0 ~ 24000
+	screenshake_cooldown = 600
+	#Chance for attack event (out of 7500)
+	#Range: 0 ~ 7500
+	attack_chance = 1000
+	#Cooldown for attack event (in ticks)
+	#Range: 0 ~ 24000
+	attack_cooldown = 1200
+	#Chance for subtle dialogue events (1-4) (out of 7500)
+	#Range: 0 ~ 7500
+	subtle_event_chance = 1
+	#Cooldown between subtle events (in ticks)
+	#Range: 0 ~ 12000
+	subtle_event_cooldown = 300
+	#Chance for sound events (12-15) (out of 7500)
+	#Range: 0 ~ 7500
+	sound_event_chance = 12
+	#Cooldown between sound events (in ticks)
+	#Range: 0 ~ 12000
+	sound_event_cooldown = 400
+	#Chance for vision events (50-52) (out of 7500)
+	#Range: 0 ~ 7500
+	vision_event_chance = 50
+	#Cooldown between vision events (in ticks)
+	#Range: 0 ~ 24000
+	vision_event_cooldown = 1200
+	#Chance for special jumpscare event (53) (out of 7500)
+	#Range: 0 ~ 7500
+	special_event_chance = 53
+	#Cooldown for special event (in ticks)
+	#Range: 0 ~ 48000
+	special_event_cooldown = 2400
+	#Chance for torch blowing event (100) (out of 7500)
+	#Range: 0 ~ 7500
+	torch_event_chance = 100
+	#Cooldown for torch event (in ticks)
+	#Range: 0 ~ 12000
+	torch_event_cooldown = 600
+
+["Entity Settings"]
+	#Settings for entity spawning and behavior
+	#Enable sleep paralysis event
+	enable_sleep_paralysis = true
+	#Chance for sleep paralysis (1-100%)
+	#Range: 1 ~ 100
+	sleep_paralysis_chance = 15
+	#Minimum day for sleep paralysis to occur
+	#Range: 1 ~ 100
+	sleep_paralysis_min_day = 3
+	#Enable Knifer entity spawn
+	enable_knifer = true
+	#Chance for Knifer spawn (out of X)
+	#Range: 1 ~ 10000
+	knifer_chance = 1
+	#Minimum day for Knifer spawn
+	#Range: 1 ~ 100
+	knifer_min_day = 5
+	#Minimum pills taken for Knifer spawn
+	#Range: 0 ~ 100
+	knifer_min_pills = 5
+	#Cooldown after Knifer spawn (in ticks)
+	#Range: 0 ~ 24000
+	spawn_cooldown = 2500
+	#Maximum light level for Knifer spawn (0-15)
+	#Range: 0 ~ 15
+	knifer_max_light = 7
+	#Enable Doorman entity spawn
+	enable_doorman = true
+	#Chance for Doorman spawn when using door (0-100%)
+	#Range: 0 ~ 100
+	doorman_chance = 10
+	#Minimum day for Doorman spawn
+	#Range: 1 ~ 100
+	doorman_min_day = 3
+	#Maximum sanity level for Doorman spawn (0-3)
+	#Range: 0 ~ 3
+	doorman_max_sanity = 2
+	#Enable Stalker version 1 (natural world spawn)
+	enable_stalker_v1 = true
+	#Minimum day for Stalker V1 spawn
+	#Range: 1 ~ 100
+	stalker_v1_min_day = 1
+	#Enable Stalker version 2 (random player-based spawn)
+	enable_stalker_v2 = true
+	#Chance for Stalker V2 spawn per check (0-100%)
+	#Range: 0 ~ 100
+	stalker_v2_spawn_chance = 25
+	#Minimum pills taken for Stalker V2
+	#Range: 0 ~ 100
+	stalker_v2_min_pills = 3
+	#Interval between Stalker V2 spawn checks (ticks)
+	#Range: 20 ~ 1200
+	stalker_v2_check_interval = 200
+	#Enable Man Itself entity spawn
+	enable_man_itself = true
+	#Chance for Man Itself spawn (out of X)
+	#Range: 1 ~ 10000
+	man_itself_chance = 1000
+	#Minimum day for Man Itself spawn
+	#Range: 1 ~ 100
+	man_itself_min_day = 3
+	#Required sanity level for Man Itself spawn
+	#Range: 0 ~ 3
+	man_itself_required_sanity = 0
+	#Spawn distance from player (blocks)
+	#Range: 1 ~ 20
+	man_itself_spawn_distance = 5
+
+["Visual Effects Settings"]
+	#Visual effects and shader settings
+	#Enable vignette effect (blood and darkening)
+	enable_vignette = true
+	#Enable desaturation effect (color loss)
+	enable_desaturation = true
+
